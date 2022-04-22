@@ -9,3 +9,10 @@ def get_route53_client():
     client = boto3.client('route53')
 
     return client
+
+
+def get_hosted_zone_ids():
+    """
+    It will return list of hosted zone id
+    """
+    pass
